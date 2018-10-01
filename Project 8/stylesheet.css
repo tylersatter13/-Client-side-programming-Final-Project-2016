@@ -1,0 +1,124 @@
+html{
+    background-color:#266A2E ;/* forest green*/
+}
+head{
+    width: 960px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.logo{
+    position: inherit;
+    margin-bottom: 0px;
+}
+body{
+ width: 960px;
+ padding-top: 20px;
+}
+h1{
+    color: #fffded;/* gold*/
+    background-color: #ffdf32;
+    padding: 20px;
+    text-align: center;
+    position: inherit;
+    font-size: 50px;
+    border: 2px solid #ccac00;
+    text-shadow: 2px 2px #266A2E;
+}
+h2{
+    background-color: #266a2e;
+    color: #ffdf32;
+    padding: 10px;
+    border: 2px solid #e5c100;
+    text-align: center;
+}
+h3{
+    color: #ffdf32;;
+}
+img{ /* centers images */
+
+}
+p{
+    padding: 10px;
+    background-color: #ffdf32;
+    color: #266a2e;
+
+}
+
+
+#slideshowControls{
+   float: left;
+    margin: 10px;
+    /*margin-left: 280px;
+    margin-right: 280px;*/
+}
+.slideshow{
+
+}
+.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; }
+
+#fundraiser {
+    width: 450px;
+    float: left;
+    margin-left: 10px;
+    color: #266a2e;
+    background-color: #ffdf32;
+}
+#fundHead{
+    color: #266a2e;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    padding: 40px;
+}
+th{
+    background-color: #ffdf32;
+}
+td{
+    background-color: #FFFFFF;
+}
+#map {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    float: left;
+}
+.articles{
+    background-color: #ffd700;
+    color: #22ac0b;
+
+}
+.newsImg{
+    margin-left: 280px;
+    margin-right: 280px;
+    border: 3px solid #266A2E;
+}
+.newsP{
+    padding: 10px;
+    background-color: #266a2e;
+    color: #ffdf32;
+    border: 2px solid #ffdf32;
+}
+#findBowlerInfo{
+    background-color: #ffdf32;
+    color: #266a2e;
+    padding: 10px;
+    float: left;
+
+}
+.findABowler{
+    color: #266a2e;
+    margin: auto;
+    text-align: center;
+}
+#findAHeader{
+  color: #266a2e;
+    text-align: center;
+}
+#results{
+    color: #266a2e;
+}

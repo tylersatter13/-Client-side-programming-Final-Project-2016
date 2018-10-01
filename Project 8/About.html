@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <script type="text/javascript" src="jquery.smartmenus.min.js"></script>
+    <link href="sm-blue.css" rel="stylesheet" type="text/css" />
+    <link href="sm-core-css.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7fIuivwA_thgdoC8LO7UtIxCT5pfTEWY&callback=initMap"
+            async defer></script>
+
+
+
+
+    <script src="Plugins/jquery-letterfx.min.js"></script>
+    <script src="Plugins/tuxsudo.min.js"></script>
+    <link href="Plugins/jquery-letterfx.min.css" rel="stylesheet" type="text/css">
+
+    <script src="howFar.js"> </script>
+    <script src="fundraiser.js"></script>
+
+    <title>About US</title>
+    <h1 class="logo">Mckay Bowling Club</h1>
+    </head>
+    <nav id="main-nav" role="navigation">
+        <ul id="main-menu" class="sm sm-blue">
+            <li id="menu-item-8"><a href="index.html">Home</a></li>
+            <li> <a href="About.html">About</a> </li>
+            <li> <a href="event.html">Events</a> </li>
+            <li> <a href="News.html">News</a> </li>
+            <li> <a href="Contact.html">Contact US</a> </li>
+        </ul>
+
+    </nav>
+    <p class="counter"></p>
+<body>
+<div id="FAQ">
+<h2> Frequently Asked Questions</h2>
+<h3> How often do you practice?</h3>
+    <p> Currently the team practices on Monday's from 3:30-5:30 pm. We also offer optional practices on Saturday for kids who want extra help.</p>
+<h3>How much does it cost to join Bowling Club?</h3>
+    <p> Currently bowling cost 5$ a week for plus a 65$ sports fee for the season. The sports fee pays for entering the tournaments.
+    </p>
+<h3>What if I can not afford to pay the sport fee?</h3>
+    <p> If you let us know before the fee is due we will do our best to set up a payment plan and help you fundraise
+    Below is a calculator to tell you how much you still owe based on the number of tickets you sold in our fundraiser</p>
+</div>
+<div id="Practice">
+    <h3> When is there practice?</h3>
+    <p>Starting this year we will be providing a calendar where you can find all practice, coaches corner sessions, and
+        Tournaments. If it is not on the calendar, it is not happening.</p>
+    </div>
+<div id="Directions">
+   <h2> Where is Bowling Club?</h2>
+    <p> We currently practice at AMF Firebird Lanes. The map below will help you find it.</p>
+    <div id="map"></div>
+    <script src="MapPlugin.js"></script>
+
+</div>
+
+<div id="fundraiser">
+    <h2> Do you want to know how much you still owe?</h2>
+    <h3 id="fundHead"> Enter how many tickets you sold in the fundraiser</h3>
+    <input type="number" min="0" id="tickets">
+    <button id="submit"> Submit</button>
+    <button type="reset" id="clear"> Clear</button>
+    <p id="results"></p>
+</div>
+</body>
+</html>
